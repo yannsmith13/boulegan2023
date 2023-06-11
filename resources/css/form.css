@@ -1,0 +1,27 @@
+form {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+.form-group label {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+.form-group input {
+    all: unset;
+    background: white;
+    height: 3rem;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+    padding: 0 0.5rem;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,55 @@
+@import 'registration.css';
+@import 'games.css';
+@import 'form.css';
+@import 'button.css';
+@import 'header.css';
+@import 'table.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Passion One', cursive;
+    color: #0C71C3;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+section {
+    width: 90%;
+    margin: 1rem 1rem 2rem 1rem;
+    padding: 0.5rem;
+}
+
+.title-section {
+    color: #0C71C3;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

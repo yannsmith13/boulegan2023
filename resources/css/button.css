@@ -1,0 +1,12 @@
+a.btn, button.btn {
+    background-color: #0C71C3;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+a.btn:hover, button.btn:hover {
+    background-color: #064477;
+}

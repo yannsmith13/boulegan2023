@@ -1,0 +1,41 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 860px) {
+    .registration-container {
+        flex-direction: row;
+    }
+}
+
+.players-list .item-players {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+    height: 2.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+    border-radius: 4px;
+}
+
+.players-list .item-players .remove-player {
+    text-transform: capitalize;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.players-list .item-players .remove-player:hover {
+    color: red;
+}
+
+.btn-section {
+    margin-top: 1rem;
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+}
+
